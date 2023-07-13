@@ -7,7 +7,7 @@
 
 # src code references
 source_code='
-  test_2_1.cpp
+  test_2_3.cpp
   '
 
 # compilation command

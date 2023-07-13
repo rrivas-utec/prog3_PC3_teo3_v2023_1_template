@@ -7,6 +7,10 @@
 using namespace std;
 
 static void test_2_1() {
+    binary_search_tree<string, int> bst;
+    bst.insert({"B", 20});
+    bst.insert({"A", 10});
+    cout << bst.max_depth() << endl;	// 2
 }
 
 TEST_CASE("Question #2.1") {
